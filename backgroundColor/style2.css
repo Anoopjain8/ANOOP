@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+} 
+.canvas {
+  height:100vh;
+  width:100%;
+  align-content: center;
+}
+button{
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+    cursor: pointer;
+}
+#red{
+background: red;
+}
+#green{
+background: green;
+}
+#blue{
+background: blue;
+}
+#yellow{
+background: yellow;
+}
+h1{
+    color: brown;
+}

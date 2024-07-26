@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+}
+body{
+    font-size: 12px;
+    font-family: "Public Sans", sans-serif;
+    background-color: #fbfbfb;
+}
+.header-container{
+    width: 100%;
+    height: 56px;
+    border: 1px solid #ddd;
+}
+.igp-header{
+    display: flex;
+}
+.left{
+    display: flex;
+}
+.nav1{
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    line-height: 4.3em;
+    display: block;
+}
+
+.nav2 img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    outline: 0;
+    height: 56px;
+    width: 69px;
+    margin: 0;
+    object-fit: contain;
+    display: block;
+   
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    border-radius: 25px;
+    min-width: 250px;
+    font-size: 1.8em;
+    padding-block: 4px;
+    padding-inline: 2px;
+    margin: 9px;
+
+}
+a {
+    text-decoration: none;
+    color: #dd2745;
+    cursor: pointer;
+}
+.right{
+    display: flex;
+}

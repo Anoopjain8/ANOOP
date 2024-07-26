@@ -1,0 +1,20 @@
+body{
+    background-color: #11111f;
+    color: #fff;
+}
+.center{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#clock{
+    background-color: #ff9500;
+    margin-top: 12px;
+    padding: 15px 30px;
+    border-radius: 9px;
+    font-size: 24px;
+    width: auto;
+
+}
